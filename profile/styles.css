@@ -75,7 +75,8 @@ h3 {
   left: 0;
 }
 
-@media (min-width: 992px) .navbar-expand-lg {
+@media (min-width: 992px) 
+.navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
