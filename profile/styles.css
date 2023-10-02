@@ -88,10 +88,18 @@ h3 {
   left: 0;
 }
 
-@media (min-width: 992px) 
+@media (min-width: 576px) {
+.col-sm-6 {
+flex: 0 0 auto;
+width: 50%;
+}
+}
+
+@media (min-width: 992px) {
 .navbar-expand-lg {
   flex-wrap: nowrap;
   justify-content: flex-start;
+}
 }
 
 .navbar {
